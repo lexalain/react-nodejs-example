@@ -15,13 +15,7 @@ pipeline {
                 }
             }
         }
-        stage("build jar") {
-            steps {
-                //script {
-                    //gv.buildJar()
-                //}
-            }
-        }
+       
         stage("build image") {
             steps {
                 script {
